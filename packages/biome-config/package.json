@@ -1,0 +1,28 @@
+{
+  "name": "@noroff/biome-config",
+  "version": "0.0.1",
+  "description": "Noroff Biome configurations",
+  "author": {
+    "name": "Noroff School of Technology and Digital Media",
+    "url": "https://www.noroff.no"
+  },
+  "license": "MIT",
+  "main": "index.json",
+  "keywords": [
+    "noroff",
+    "biome",
+    "biomeconfig",
+    "biome-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noroff-Online-Team/configs"
+  },
+  "homepage": "https://github.com/Noroff-Online-Team/configs",
+  "bugs": {
+    "url": "https://github.com/Noroff-Online-Team/configs/issues"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": ">=1.8 || <2"
+  }
+}
