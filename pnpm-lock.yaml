@@ -22,7 +22,10 @@ importers:
         version: 2.1.1
 
   packages/eslint-config:
-    devDependencies:
+    dependencies:
+      eslint:
+        specifier: '>=9'
+        version: 9.9.1
       eslint-config-prettier:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.9.1)
@@ -30,7 +33,11 @@ importers:
         specifier: ^15.9.0
         version: 15.9.0
 
-  packages/prettier-config: {}
+  packages/prettier-config:
+    dependencies:
+      prettier:
+        specifier: '>=3'
+        version: 3.3.3
 
 packages:
 
