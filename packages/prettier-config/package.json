@@ -23,6 +23,6 @@
     "url": "https://github.com/Noroff-Online-Team/configs/issues"
   },
   "peerDependencies": {
-    "prettier": ">=3"
+    "prettier": ">=3 || <4"
   }
 }
