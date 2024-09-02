@@ -1,0 +1,32 @@
+{
+  "name": "@noroff/eslint-config",
+  "version": "0.0.1",
+  "description": "Noroff ESLint configurations",
+  "author": {
+    "name": "Noroff School of Technology and Digital Media",
+    "url": "https://www.noroff.no"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "noroff",
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noroff-Online-Team/configs"
+  },
+  "homepage": "https://github.com/Noroff-Online-Team/configs",
+  "bugs": {
+    "url": "https://github.com/Noroff-Online-Team/configs/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=9"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0"
+  }
+}

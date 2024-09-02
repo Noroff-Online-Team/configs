@@ -1,0 +1,28 @@
+{
+  "name": "@noroff/prettier-config",
+  "version": "0.0.1",
+  "description": "Noroff Prettier configurations",
+  "author": {
+    "name": "Noroff School of Technology and Digital Media",
+    "url": "https://www.noroff.no"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "noroff",
+    "prettier",
+    "prettierconfig",
+    "prettier-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noroff-Online-Team/configs"
+  },
+  "homepage": "https://github.com/Noroff-Online-Team/configs",
+  "bugs": {
+    "url": "https://github.com/Noroff-Online-Team/configs/issues"
+  },
+  "peerDependencies": {
+    "prettier": ">=3"
+  }
+}

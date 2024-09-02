@@ -1,0 +1,27 @@
+{
+  "name": "noroff-configs",
+  "description": "Shared ESLint and Prettier configurations for Noroff",
+  "author": {
+    "name": "Noroff School of Technology and Digital Media",
+    "url": "https://www.noroff.no"
+  },
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "clean": "turbo clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "eslint": "^9.9.1",
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.1"
+  }
+}
